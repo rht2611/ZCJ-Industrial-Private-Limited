@@ -38,9 +38,11 @@ export function Navbar({ currentPage, onNavigate, onRequestQuote }: NavbarProps)
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-2.5 text-left whitespace-nowrap shrink-0 group focus:outline-none"
           >
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-slate-900 to-blue-700 text-white font-extrabold text-sm flex items-center justify-center shadow-xs">
+          <a>
+          <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-slate-900 to-blue-700 text-white font-extrabold text-sm flex items-center justify-center shadow-xs">
               ZCJ
             </div>
+          </a>  
             <div className="flex flex-col">
               <span className="text-base font-extrabold tracking-tight text-slate-900 leading-tight">
                 ZCJ Industrial
