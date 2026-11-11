@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/ZCJ-Industrial-Private-Limited/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
