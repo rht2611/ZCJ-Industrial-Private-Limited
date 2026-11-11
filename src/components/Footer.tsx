@@ -163,21 +163,7 @@ export function Footer({ onNavigate, onOpenExport }: FooterProps) {
           </div>
           
           <div className="flex items-center gap-4">
-            <a
-              href="/zcj-industrial-website.zip"
-              download="zcj-industrial-website.zip"
-              className="text-emerald-400 hover:text-emerald-300 font-bold flex items-center gap-1 transition-colors"
-            >
-              <Download className="w-3 h-3" />
-              Download Website ZIP (.zip)
-            </a>
-            <span>·</span>
-            <button
-              onClick={onOpenExport}
-              className="text-orange-400 hover:text-orange-300 font-semibold flex items-center gap-1 transition-colors"
-            >
-              Export Standalone Code
-            </button>
+
             <span>·</span>
             <span>Greater Noida, Uttar Pradesh, India</span>
           </div>
