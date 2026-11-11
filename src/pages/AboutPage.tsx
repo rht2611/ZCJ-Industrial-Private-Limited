@@ -68,7 +68,7 @@ export function AboutPage({ onNavigate, onRequestQuote }: AboutPageProps) {
           <div className="lg:col-span-6 space-y-4">
             <div className="rounded-2xl overflow-hidden shadow-xl border border-slate-200">
               <img
-                src="/src/assets/images/facility_cold_heading_1794386614185.jpg"
+                src="/ZCJ-Industrial-Private-Limited/images/facility_cold_heading.jpg"
                 alt="ZCJ Greater Noida Manufacturing Facility"
                 className="w-full h-80 object-cover"
               />
@@ -147,7 +147,7 @@ export function AboutPage({ onNavigate, onRequestQuote }: AboutPageProps) {
           <div className="lg:col-span-6 space-y-4 order-2 lg:order-1">
             <div className="rounded-2xl overflow-hidden shadow-xl border border-slate-200">
               <img
-                src="/src/assets/images/testing_quality_lab_1794386614591.jpg"
+                src="/ZCJ-Industrial-Private-Limited/images/testing_quality_lab.jpg"
                 alt="Metallurgical Metrology Lab"
                 className="w-full h-80 object-cover"
               />
