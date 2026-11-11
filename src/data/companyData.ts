@@ -102,7 +102,7 @@ export const PRODUCTS_DATA: Product[] = [
     finish: 'Black Zinc, Trivalent Clear Zinc, Nickel, Passivated',
     sizeRange: 'M0.8 to M8 (Length: 2mm to 80mm)',
     standard: 'DIN 7985, DIN 965, ISO 7045, JIS B 1111',
-    image: '/src/assets/images/hero_industrial_fasteners_1794386612750.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/hero_industrial_fasteners.jpg',
     applications: ['Consumer Electronics', 'Automotive Sensors', 'Precision Instruments', 'Medical Devices'],
     keySpecs: [
       { label: 'Thread Size', value: 'M0.8 – M8.0' },
@@ -122,7 +122,7 @@ export const PRODUCTS_DATA: Product[] = [
     finish: 'Black Oxide / Phosphated, Geomet, Dacromet, Zinc Flake',
     sizeRange: 'M4 to M24 (Length: 10mm to 200mm)',
     standard: 'DIN 933, DIN 931, ISO 4014, ASTM A325',
-    image: '/src/assets/images/automotive_fasteners_line_1794386613252.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/automotive_fasteners_line.jpg',
     applications: ['Automotive Powertrain', 'Heavy Machinery', 'Wind Energy', 'Structural Steel'],
     keySpecs: [
       { label: 'Hardness Grade', value: 'Grade 8.8, 10.9, 12.9' },
@@ -142,7 +142,7 @@ export const PRODUCTS_DATA: Product[] = [
     finish: 'Yellow Zinc, White Zinc, Black Phosphate, Dacromet',
     sizeRange: 'M3 to M24',
     standard: 'DIN 985, DIN 982, DIN 6923, ISO 7040',
-    image: '/src/assets/images/hero_industrial_fasteners_1794386612750.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/hero_industrial_fasteners.jpg',
     applications: ['Suspension Systems', 'Agricultural Equipment', 'Electric Motors', 'Conveyor Lines'],
     keySpecs: [
       { label: 'Thread Class', value: 'ISO Metric 6H' },
@@ -162,7 +162,7 @@ export const PRODUCTS_DATA: Product[] = [
     finish: 'Ruspert 1000 Hr, Electro Zinc, Mech Zinc',
     sizeRange: '#6 to 1/4" / M3.5 to M6.3 (Length: 13mm to 150mm)',
     standard: 'DIN 7504 (P, N, K), ISO 15480',
-    image: '/src/assets/images/automotive_fasteners_line_1794386613252.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/automotive_fasteners_line.jpg',
     applications: ['Pre-Engineered Buildings (PEB)', 'Solar Panel Mounting', 'HVAC Ducting', 'Automotive Body Panels'],
     keySpecs: [
       { label: 'Drilling Capacity', value: 'Up to 12.5mm Mild Steel Plate' },
@@ -182,7 +182,7 @@ export const PRODUCTS_DATA: Product[] = [
     finish: 'Dacromet, Geomet 500B, Zinc-Nickel (1000+ Hr NSS)',
     sizeRange: 'Diameter 2mm to 18mm / Lengths up to 180mm',
     standard: 'Customer Blueprint Specific / OEM Standards (Maruti, Tata, Hyundai specs)',
-    image: '/src/assets/images/automotive_fasteners_line_1794386613252.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/automotive_fasteners_line.jpg',
     applications: ['Steering Columns', 'Door Hinges & Latches', 'Seat Recliner Mechanisms', 'EV Battery Packs'],
     keySpecs: [
       { label: 'PPM Defect Rate', value: '< 15 PPM (with 100% Optical Sorting)' },
@@ -202,7 +202,7 @@ export const PRODUCTS_DATA: Product[] = [
     finish: 'Natural, Bright Annealed, Tin Plated, Zinc Plated',
     sizeRange: 'Diameter 1.2mm to 10mm',
     standard: 'DIN 7337, DIN 94, ISO 1234, ASME B18.1.1',
-    image: '/src/assets/images/hero_industrial_fasteners_1794386612750.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/hero_industrial_fasteners.jpg',
     applications: ['Electrical Switchgear', 'Brake Linings', 'Sheet Metal Enclosures', 'Heavy Commercial Vehicles'],
     keySpecs: [
       { label: 'Types', value: 'Solid Head, Semi-Tubular, Blind Pop, Split Cotter' },
@@ -312,7 +312,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'High-Volume Cold Heading Plant',
     category: 'plant',
     categoryLabel: 'Plant & Machinery',
-    image: '/src/assets/images/facility_cold_heading_1794386614185.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/facility_cold_heading.jpg',
     caption: 'Our modern manufacturing facility in Surajpur Industrial Area, Greater Noida, equipped with multi-station automated cold headers.'
   },
   {
@@ -320,7 +320,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'High-Tensile Bolts & Industrial Fasteners',
     category: 'products',
     categoryLabel: 'Products',
-    image: '/src/assets/images/hero_industrial_fasteners_1794386612750.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/hero_industrial_fasteners.jpg',
     caption: 'Precision engineered machine screws, hex bolts, spring washers, and threaded components fabricated to DIN & ISO standards.'
   },
   {
@@ -328,7 +328,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Optical Profile Metrology & Quality Inspection',
     category: 'lab',
     categoryLabel: 'Quality Lab',
-    image: '/src/assets/images/testing_quality_lab_1794386614591.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/testing_quality_lab.jpg',
     caption: 'Profile projector verifying micro-thread pitch, tooth angle, and head tolerances down to ±0.01mm.'
   },
   {
@@ -336,7 +336,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Automotive Grade Flange Bolts & Cold Formed Pins',
     category: 'products',
     categoryLabel: 'Products',
-    image: '/src/assets/images/automotive_fasteners_line_1794386613252.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/automotive_fasteners_line.jpg',
     caption: 'Black phosphated Grade 10.9 flange bolts, custom automotive pins, and micro screws for OEM assembly lines.'
   },
   {
@@ -344,7 +344,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Automated Secondary Thread Rolling Stations',
     category: 'plant',
     categoryLabel: 'Plant & Machinery',
-    image: '/src/assets/images/facility_cold_heading_1794386614185.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/facility_cold_heading.jpg',
     caption: 'High-speed flat die thread rolling ensuring continuous grain structure and burr-free threads.'
   },
   {
@@ -352,7 +352,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Precision Micro Screw Inspection',
     category: 'lab',
     categoryLabel: 'Quality Lab',
-    image: '/src/assets/images/testing_quality_lab_1794386614591.jpg',
+    image: '/ZCJ-Industrial-Private-Limited/images/testing_quality_lab.jpg',
     caption: 'Metallurgical testing and dimensional certification ensuring adherence to RoHS and IATF standards.'
   }
 ];
