@@ -34,24 +34,26 @@ export function Navbar({ currentPage, onNavigate, onRequestQuote }: NavbarProps)
         <div className="flex items-center justify-between gap-8 h-18">
           
           {/* Zone 1: Brand Wordmark (Single Text Element) */}
-          <button
-            onClick={() => handleNavClick('home')}
-            className="flex items-center gap-2.5 text-left whitespace-nowrap shrink-0 group focus:outline-none"
-          >
-          <a href="/">
-          <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-slate-900 to-blue-700 text-white font-extrabold text-sm flex items-center justify-center shadow-xs">
-              ZCJ
-            </div>
-          </a>  
-            <div className="flex flex-col">
-              <span className="text-base font-extrabold tracking-tight text-slate-900 leading-tight">
-                ZCJ Industrial
-              </span>
-              <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider">
-                Private Limited
-              </span>
-            </div>
-          </button>
+        <a
+  href={import.meta.env.BASE_URL}
+  onClick={(e) => {
+    e.preventDefault();
+    handleNavClick('home');
+  }}
+  className="flex items-center gap-2.5 text-left whitespace-nowrap shrink-0 group focus:outline-none"
+>
+  <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-slate-900 to-blue-700 text-white font-extrabold text-sm flex items-center justify-center shadow-xs">
+    ZCJ
+  </div>
+  <div className="flex flex-col">
+    <span className="text-base font-extrabold tracking-tight text-slate-900 leading-tight">
+      ZCJ Industrial
+    </span>
+    <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider">
+      Private Limited
+    </span>
+  </div>
+</a>
 
           {/* Zone 2: Navigation Links (7 Pages) */}
           <nav className="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
