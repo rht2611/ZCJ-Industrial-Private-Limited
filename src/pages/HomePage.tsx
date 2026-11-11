@@ -96,7 +96,7 @@ export function HomePage({ onNavigate, onRequestQuote }: HomePageProps) {
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 group">
                 <img
-                  src="/src/assets/images/hero_industrial_fasteners_1794386612750.jpg"
+                  src="/ZCJ-Industrial-Private-Limited/images/hero_industrial_fasteners.jpg"
                   alt="Precision Fasteners by ZCJ Industrial"
                   className="w-full h-[380px] sm:h-[440px] object-cover group-hover:scale-102 transition-transform duration-500"
                 />
@@ -197,7 +197,7 @@ export function HomePage({ onNavigate, onRequestQuote }: HomePageProps) {
             </div>
             <div className="w-full md:w-64 h-52 rounded-xl overflow-hidden shrink-0 border border-slate-100">
               <img
-                src="/src/assets/images/facility_cold_heading_1794386614185.jpg"
+                src="/ZCJ-Industrial-Private-Limited/images/facility_cold_heading.jpg"
                 alt="Cold Heading Facility"
                 className="w-full h-full object-cover"
               />
@@ -244,7 +244,7 @@ export function HomePage({ onNavigate, onRequestQuote }: HomePageProps) {
             </div>
             <div className="rounded-xl overflow-hidden h-36 border border-slate-100">
               <img
-                src="/src/assets/images/testing_quality_lab_1794386614591.jpg"
+                src="/ZCJ-Industrial-Private-Limited/images/testing_quality_lab.jpg"
                 alt="Quality Testing Lab"
                 className="w-full h-full object-cover"
               />
@@ -255,7 +255,7 @@ export function HomePage({ onNavigate, onRequestQuote }: HomePageProps) {
           <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-200 p-8 shadow-xs hover:shadow-md transition-shadow flex flex-col md:flex-row gap-6 items-center">
             <div className="w-full md:w-64 h-52 rounded-xl overflow-hidden shrink-0 border border-slate-100 order-2 md:order-1">
               <img
-                src="/src/assets/images/automotive_fasteners_line_1794386613252.jpg"
+                src="/ZCJ-Industrial-Private-Limited/images/automotive_fasteners_line.jpg"
                 alt="Automotive Fasteners"
                 className="w-full h-full object-cover"
               />
