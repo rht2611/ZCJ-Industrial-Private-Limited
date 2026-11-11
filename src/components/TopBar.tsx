@@ -53,23 +53,25 @@ export function TopBar({ onOpenExport }: TopBarProps) {
             <span>WhatsApp</span>
           </a>
 
-          <a
-            href="/zcj-industrial-website.zip"
-            download="zcj-industrial-website.zip"
-            className="bg-emerald-600 hover:bg-emerald-500 text-white px-2.5 py-0.5 rounded font-bold text-[11px] flex items-center gap-1 transition-colors shadow-xs"
-            title="Download complete website zip archive"
-          >
-            <Download className="w-3 h-3" />
-            <span>Download ZIP</span>
-          </a>
+      {/*
+<a
+  href="/zcj-industrial-website.zip"
+  download="zcj-industrial-website.zip"
+  className="bg-emerald-600 hover:bg-emerald-500 text-white px-2.5 py-0.5 rounded font-bold text-[11px] flex items-center gap-1 transition-colors shadow-xs"
+  title="Download complete website zip archive"
+>
+  <Download className="w-3 h-3" />
+  <span>Download ZIP</span>
+</a>
 
-          <button
-            onClick={onOpenExport}
-            className="bg-orange-600/90 hover:bg-orange-600 text-white px-2.5 py-0.5 rounded font-semibold text-[11px] flex items-center gap-1 transition-colors shadow-xs"
-            title="View and download standalone HTML, CSS, JS files for GitHub"
-          >
-            <span>GitHub Export</span>
-          </button>
+<button
+  onClick={onOpenExport}
+  className="bg-orange-600/90 hover:bg-orange-600 text-white px-2.5 py-0.5 rounded font-semibold text-[11px] flex items-center gap-1 transition-colors shadow-xs"
+  title="View and download standalone HTML, CSS, JS files for GitHub"
+>
+  <span>GitHub Export</span>
+</button>
+*/}
         </div>
 
       </div>
